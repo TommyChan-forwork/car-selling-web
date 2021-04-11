@@ -1,0 +1,423 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p,
+a,
+input,
+label,
+textarea,
+span,
+ul,
+li {
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+nav li {
+  margin: 0 13px;
+}
+#intro .jumbotron {
+  background-image: url("img/carbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 70vh;
+  margin-bottom: 0px;
+}
+
+#intro .jumbotron .container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#intro .jumbotron2 {
+  background-image: url("img/audibg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 70vh;
+  margin-bottom: 0px;
+}
+
+#intro .jumbotron2 .container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.fade-in {
+  animation: fadeIn 3 s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#intro .btn {
+  margin-top: 20px;
+}
+.btn {
+  background-color: #f05f5c;
+  padding: 7px 28px;
+  border-radius: 20px;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.8;
+  background-color: #f05f5c !important;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #707070;
+}
+
+h1.display-4 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+p.lead {
+  color: black;
+  line-height: 31px;
+}
+#bestbuy {
+  background: rgb(248, 248, 248);
+  padding: 80px 0px;
+}
+#bestbuy.upper {
+  position: relative;
+}
+#bestbuy.innertext {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#bestbuy.innertext span {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 5px 16px;
+  border-radius: 30px;
+}
+#bestbuy h4 {
+  font-size: 19px;
+  margin-top: 18px;
+}
+#bestbuy.lower {
+  padding: 22px;
+}
+#bestbuy .col-md-4 .outer {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  padding: 0px;
+  margin: 0 5px;
+}
+#bestbuy.lower h3 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+#bestbuy a {
+  color: black;
+  text-decoration: none;
+}
+#bestbuy i {
+  margin-right: 5px;
+}
+#email {
+  padding: 80px 0px;
+}
+footer {
+  padding: 80px 0px;
+}
+#email p {
+  margin-top: 40px;
+}
+#email .btn {
+  margin-top: 10px;
+  font-size: 16px;
+}
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+footer img {
+  margin-bottom: 30px;
+}
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul a {
+  color: #707070;
+}
+footer a {
+  color: #f05f5c;
+}
+footer a:hover {
+  color: #f05f5c;
+}
+footer ul a:hover {
+  color: #707070;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+footer ul {
+  float: left;
+  margin-right: 46px;
+}
+#bestbuy .thehead h3 {
+  margin-bottom: 7px;
+  font-size: 32px;
+}
+#bestbuy .thehead p {
+  margin-bottom: 80px;
+}
+#bestbuy .thehead .col-md-4 p {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+#bestbuy .thehead h3.notag {
+  margin-bottom: 88px;
+}
+.card-header .btn,
+.card-header .btn:hover {
+  background: none !important;
+  color: black;
+}
+
+#singlecontent {
+  padding: 80 0px;
+}
+.thetag {
+  color: #f05f5c;
+  font-size: 16px;
+  border: 1px solid #f05f5c;
+  padding: 10px 18px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 7px;
+}
+#singlecontent h4 {
+  margin-top: 50px;
+}
+.apply {
+  background-color: #f9f9f9;
+  padding: 44px;
+}
+.apply .btn {
+  font-size: 16px;
+  margin-top: 31px;
+  width: 100%;
+}
+.applybelow {
+  margin-top: 80px;
+  text-align: center;
+}
+.btn2 {
+  color: #707070;
+  border: 1px solid #707070;
+  padding: 10px 24px;
+  border-radius: 20px;
+  margin-top: 3px;
+  display: inline-block;
+}
+.btn2:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #707070;
+}
+#intro .contact {
+  height: auto;
+  padding: 0px;
+}
+#intro .contact .col-md-4 {
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 66px;
+  text-align: center;
+}
+#intro .contact .col-md-4 h1 {
+  color: white;
+}
+#intro .contact .col-md-4 p {
+  color: white;
+}
+#intro .contact .col-md-4 hr {
+  color: white;
+  border-top: 2px solid #f05f5c;
+  width: 87px;
+  margin-top: 24px;
+  margin-bottom: 26px;
+}
+.cinner {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#contactcontent {
+  padding: 80px 0px;
+}
+#contactcontent h3 {
+  margin-bottom: 40px;
+}
+#contactcontent a {
+  color: #f05f5c;
+}
+#contactcontent a.btn {
+  color: white;
+}
+#contactcontent textarea {
+  height: 200px;
+  margin-bottom: 10px;
+}
+#contactcontent i {
+  display: inline-block;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 768px) {
+  #second h5 {
+    margin-bottom: 50px;
+  }
+  #bestbuy .col-md-4 {
+    margin-bottom: 60px;
+  }
+  footer h4 {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+  }
+}
+
+#newcar {
+  background: white;
+  padding: 80px 0px;
+}
+#newcar.upper {
+  position: relative;
+}
+#newcar.innertext {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#newcar.innertext span {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 5px 16px;
+  border-radius: 30px;
+}
+#newcar h4 {
+  font-size: 19px;
+  margin-top: 18px;
+}
+#newcar.lower {
+  padding: 22px;
+}
+#newcar .col-md-4 .outer {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  padding: 0px;
+  margin: 0 5px;
+}
+#newcar.lower h3 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+#newcar a {
+  color: black;
+  text-decoration: none;
+}
+#newcar i {
+  margin-right: 5px;
+}
+#newcar .thehead h3 {
+  margin-bottom: 7px;
+  font-size: 32px;
+}
+#newcar .thehead p {
+  margin-bottom: 80px;
+}
+#newcar .thehead .col-md-4 p {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+#newcar .thehead h3.notag {
+  margin-bottom: 88px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.pagination a.active {
+  background-color: pink;
+}
+.pagination a:hover:not(.active) {
+  background-color: skyblue;
+}
+
+#searchbar {
+  background: rgb(255, 255, 255);
+  padding: 80px 0px;
+}
+
+.search-box {
+  padding: bottom 30px;
+  width: 100%;
+}
